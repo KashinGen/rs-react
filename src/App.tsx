@@ -36,6 +36,7 @@ class App extends Component<AppProps, AppState> {
       }
     } catch (e) {
       console.log(e);
+      
       this.setState({ isLoading: true, list: [], isError: true });
     }
   };
